@@ -1,39 +1,48 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
-import { FaNewspaper, FaDatabase, FaShieldAlt, FaMousePointer, FaFreeCodeCamp, FaGift } from "react-icons/fa";
+import {
+  FaNewspaper,
+  FaDatabase,
+  FaShieldAlt,
+  FaMousePointer,
+  FaFreeCodeCamp,
+  FaGift,
+  FaBell,
+  FaBrain,
+} from "react-icons/fa";
 import { SiNextdotjs, SiTailwindcss, SiStripe } from "react-icons/si";
 import { RiAiGenerate } from "react-icons/ri";
 const Features = () => {
   const features = [
     {
-      icon: FaMousePointer,
-      title: "One click autofill",
-      description: "Autofill your job applications with a single click and save time.",
+      icon: FaBell,
+      title: "Gentle Reminders",
+      description: "PostureSmart will gently remind you to keep your posture in check using notifications.",
     },
     {
-      icon: RiAiGenerate,
-      title: "Auto detect fields",
-      description: "Jobfillr will auto detect if you are filling a job application and asks you to fill them",
+      icon: FaBrain,
+      title: "Ai Powered",
+      description: "PostureSmart uses Ai to make sure you are sitting correctly and alerting you if you are not.",
     },
     {
-      icon: FaDatabase,
-      title: "Save once, use forever",
-      description: "Save your Information once and use it everywhere.",
+      icon: FaBell,
+      title: "Ai Reminders",
+      description: "PostureSmart will use Ai to remind you to correct your posture using notifications.",
     },
     {
       icon: FaShieldAlt,
       title: "Privacy first",
-      description: "All information is stored locally in your browser and never sent to any servers.",
+      description: "No video or image data is store or sent to third party servers. built with privacy in mind.",
     },
     {
       icon: FaGift,
       title: "Its Free",
-      description: "Jobfillr is free to use, its designed by a developer for developers.",
+      description: "PostureSmart is free to use, its designed by a developer for developers.",
     },
     {
       icon: FaNewspaper,
       title: "Access to new features",
-      description: "Jobfillr gets regularly updated with newer features being added",
+      description: "PostureSmart gets regularly updated with newer features being added",
     },
   ];
 
@@ -42,10 +51,10 @@ const Features = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-            Autofill with ease
+            Keeping Your Spine Aligned
           </h2>
-          <p className="mt-8 text-xl text-gray-600 dark:text-gray-300 font-light">
-            Jobfillr comes packed with awesome features to make it a breeze when filling your job applications.
+          <p className="mt-8 font-[400] text-xl text-gray-600 dark:text-gray-300 font-light">
+            PostureSmart comes packed with great features harnessing the power of Ai to keep your posture in check.
           </p>
         </div>
         <div className="mt-10">
