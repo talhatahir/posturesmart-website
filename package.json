@@ -1,7 +1,7 @@
 {
-  "name": "jobfillr",
+  "name": "PostureSmart",
   "version": "1.0.0",
-  "description": "Autofill job applications",
+  "description": "Correct your posture with Ai",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

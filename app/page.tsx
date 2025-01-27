@@ -40,7 +40,9 @@ export default function Page() {
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
                 The best Chrome extension!
               </h2>
-              <p className="text-xl font-light">Jobfillr is the best free Chrome extension for autofill.</p>
+              <p className="text-xl font-light">
+                PostureSmart is the best free Chrome extension for correcting your posture.
+              </p>
               <p className="text-xl font-light">It is fast, easy to use, requires no subscription or credit card.</p>
             </div>
           }

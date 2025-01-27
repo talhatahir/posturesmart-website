@@ -7,8 +7,8 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
           <div className="flex items-center">
-            <img src="/icons/icon-48.png" alt="Jobfillr logo" className="w-8 h-8 mr-1" />
-            <span className="text-xl dark:text-gray-100">Jobfillr</span>
+            <img src="/icons/icon-48.png" alt="PostureSmart logo" className="w-8 h-8 mr-1" />
+            <span className="font-[500] text-xl dark:text-gray-100">PostureSmart</span>
           </div>
         </div>
         <nav className="flex items-center">

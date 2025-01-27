@@ -8,7 +8,7 @@ const Download: React.FC = () => (
       <div className="w-full md:w-1/2 order-1 p-4 flex justify-center items-center">
         <Image
           src="/icons/icon-512.png"
-          alt="Jobfillr icon"
+          alt="PostureSmart icon"
           width={768}
           height={768}
           className="w-1/2 h-auto mx-auto md:mx-0"

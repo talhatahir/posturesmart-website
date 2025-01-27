@@ -1,5 +1,4 @@
-# Jobfillr
+# PostureSmart
 
-My Chrome extension website to autofill job applications.
-
-Download the extension from the Chrome Web Store: [Jobfillr](https://chromewebstore.google.com/detail/jobfiller-autofill-for-jo/pjclfaplmlmplmdjnhpilgpnflnmdbdg)
+My chrome extension website to correct your posture with AI.
+Download the extension from the Chrome Web Store: [PostureSmart](https://chromewebstore.google.com/detail/posturesmart-correct-your/jjdbjpcdikaljelndnmnbacecmipbono)
