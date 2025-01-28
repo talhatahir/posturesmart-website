@@ -5,8 +5,9 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import "styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "PostureSmart",
-  description: "Correct your posture with Ai",
+  title: "PostureSmart - Correct your posture with Ai",
+  description:
+    "PostureSmart gives you quick posture check, gentle reminders, Ai based reminders to keep your spine aligned using Ai",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
