@@ -40,18 +40,19 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content, isOpen, t
 
 const defaultAccordionItems = [
   {
-    title: "Advanced form detection",
+    title: "Real-time Ai Posture Detection",
     content:
-      "Using state of the art techniques to auto identify if you are filling a form. No need to manually select the form fields.",
+      "Using state-of-the-art Ai technology to monitor your posture in real-time, providing instant visual feedback through intuitive gauges. Tracks shoulder levelness, head tilt, forward head position, and head rotation.",
   },
   {
-    title: "Free to use",
-    content: "The best quality at no cost. No subscription, no credit card required.",
+    title: "Smart Notifications & Modes",
+    content:
+      "Choose between Normal mode for simple reminders or Advanced mode for Ai-powered detection. Get smart notifications at customized intervals to help correct your posture throughout the day.",
   },
   {
-    title: "More fields for those special forms",
+    title: "Privacy-Focused Design",
     content:
-      "For those pesky forms that have a lot of fields, you can provide more data to the extension to fill in more fields.",
+      "Your privacy is our priority. All posture analysis happens locally on your device - no video data is ever stored or shared with external servers. Perfect for remote workers, students, and office professionals.",
   },
 ];
 

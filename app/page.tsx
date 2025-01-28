@@ -16,22 +16,24 @@ export default function Page() {
       <main>
         <Hero />
         <Features />
-        <Section
-          leftHalf={
-            <>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Fill out hundreds of job applications in a few clicks
+        <section className="container mx-auto py-12 px-4 md:px-6">
+          <div className="flex flex-col items-center gap-8">
+            <div className="order-2 md:order-1 p-4 justify-center">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4 text-center">
+                Get instant feedback about your posture using Ai
               </h2>
-              <p className="text-xl font-light">
-                Jobfillr makes it easy to fill in all details required on a job application form.
+              <p className="text-xl font-light text-center">
+                PostureSmart makes it easy to check your posture using Ai.
               </p>
-              <p className="text-xl font-light">Just click it to fill it!</p>
-            </>
-          }
-          rightHalf={
-            <Image src={"/products/rec1.gif"} alt="section-image" width={600} height={300} className="w-full h-auto" />
-          }
-        />
+            </div>
+            <div className="order-1 md:order-2 justify-center">
+              <video autoPlay muted loop playsInline className="w-full h-auto rounded-lg">
+                <source src="/products/finalVideo.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </section>
         <Customers />
         <Section
           leftHalf={<Accordion />}

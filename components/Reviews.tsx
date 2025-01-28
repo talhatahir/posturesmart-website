@@ -15,28 +15,27 @@ interface ReviewsProps {
 const defaultReviews: ReviewData[] = [
   {
     rating: 5,
-    content: "I didn't realize how much I needed this until I began using it.",
-    author: "Salman Ali Shehzad",
-    designation: "Founder @ Musings Inc",
+    content: "Great app, real time feedback about your posture!",
+    author: "Atif Dastgir",
+    designation: "Founder @ Mindcusp",
   },
   {
     rating: 5,
-    content: "Saves a lot of my time! Thanks",
-    author: "Amshee Hassan",
-    designation: "Senior Engineer",
-  },
-  {
-    rating: 5,
-    content:
-      "I can't thank the developer of this plugin enough for developing this fantastic plugin! If you're tired of endlessly filling out job applications, look no further. This extension is a game-changer.",
-    author: "Arslan Irshad",
-    designation: "Engineering Manager",
-  },
-  {
-    rating: 5,
-    content: "Saves my time. Awesome and quick. Now I can easily apply for a lot of jobs.",
+    content: "Very good use of AI and wellbeing.",
     author: "Saad Tahir",
     designation: "CEO @ Velocity Studios",
+  },
+  {
+    rating: 5,
+    content: "This is genius!",
+    author: "Kashif Shabbir",
+    designation: "CEO @ Lykhari",
+  },
+  {
+    rating: 5,
+    content: "This extension helped me keep my posture in check. I'm so glad I found it!",
+    author: "Bren Edwards",
+    designation: "Engineer Manager",
   },
 ];
 

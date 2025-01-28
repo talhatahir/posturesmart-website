@@ -22,7 +22,8 @@ const Features = () => {
     {
       icon: FaBrain,
       title: "Ai Powered",
-      description: "PostureSmart uses Ai to make sure you are sitting correctly and alerting you if you are not.",
+      description:
+        "PostureSmart uses Ai to analyzer your posture and give instant feedback using tensorflow at the backend.",
     },
     {
       icon: FaBell,
