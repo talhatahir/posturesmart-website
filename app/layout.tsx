@@ -34,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="twitter:description" content="Correct your posture with Ai" />
         <meta name="twitter:image" content="https://www.posturesm.art/icons/icon-128.png" />
       </head>
-      <GoogleAnalytics gaId="G-3Q7FK0H4T2" />
+      <GoogleAnalytics gaId="G-H0C3FD0Y98" />
       <body className="bg-white dark:bg-black min-h-screen">
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           {children}
